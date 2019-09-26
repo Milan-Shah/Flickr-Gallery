@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		1341C027233C3AB500B683DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341C026233C3AB500B683DF /* AppDelegate.swift */; };
-		1341C029233C3AB500B683DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341C028233C3AB500B683DF /* ViewController.swift */; };
 		1341C02C233C3AB500B683DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1341C02A233C3AB500B683DF /* Main.storyboard */; };
 		1341C02E233C3AB700B683DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1341C02D233C3AB700B683DF /* Assets.xcassets */; };
 		1341C031233C3AB700B683DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1341C02F233C3AB700B683DF /* LaunchScreen.storyboard */; };
+		1341C046233C3C6700B683DF /* MuseoSans-700Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C03C233C3C6600B683DF /* MuseoSans-700Italic.otf */; };
+		1341C047233C3C6700B683DF /* MuseoSans-300Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C03D233C3C6600B683DF /* MuseoSans-300Italic.otf */; };
+		1341C048233C3C6700B683DF /* MuseoSans-100.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C03E233C3C6700B683DF /* MuseoSans-100.otf */; };
+		1341C049233C3C6700B683DF /* MuseoSans-700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C03F233C3C6700B683DF /* MuseoSans-700.otf */; };
+		1341C04A233C3C6700B683DF /* MuseoSans-500Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C040233C3C6700B683DF /* MuseoSans-500Italic.otf */; };
+		1341C04B233C3C6700B683DF /* MuseoSans-100-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C041233C3C6700B683DF /* MuseoSans-100-Italic.otf */; };
+		1341C04C233C3C6700B683DF /* MuseoSans-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C042233C3C6700B683DF /* MuseoSans-500.otf */; };
+		1341C04D233C3C6700B683DF /* MuseoSans-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C043233C3C6700B683DF /* MuseoSans-300.otf */; };
+		1341C04E233C3C6700B683DF /* MuseoSans-900Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C044233C3C6700B683DF /* MuseoSans-900Italic.otf */; };
+		1341C04F233C3C6700B683DF /* MuseoSans-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1341C045233C3C6700B683DF /* MuseoSans-900.otf */; };
+		1341C052233C3D1200B683DF /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341C051233C3D1200B683DF /* InteractorInterface.swift */; };
+		1341C054233C3D2D00B683DF /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341C053233C3D2D00B683DF /* PresenterInterface.swift */; };
+		1341C056233C3D4000B683DF /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341C055233C3D4000B683DF /* ViewInterface.swift */; };
+		1341C058233C3D4F00B683DF /* WireframeInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341C057233C3D4F00B683DF /* WireframeInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1341C023233C3AB500B683DF /* Flickr-Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr-Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1341C026233C3AB500B683DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1341C028233C3AB500B683DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1341C02B233C3AB500B683DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1341C02D233C3AB700B683DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1341C030233C3AB700B683DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1341C032233C3AB700B683DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1341C03C233C3C6600B683DF /* MuseoSans-700Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-700Italic.otf"; sourceTree = "<group>"; };
+		1341C03D233C3C6600B683DF /* MuseoSans-300Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-300Italic.otf"; sourceTree = "<group>"; };
+		1341C03E233C3C6700B683DF /* MuseoSans-100.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-100.otf"; sourceTree = "<group>"; };
+		1341C03F233C3C6700B683DF /* MuseoSans-700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-700.otf"; sourceTree = "<group>"; };
+		1341C040233C3C6700B683DF /* MuseoSans-500Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-500Italic.otf"; sourceTree = "<group>"; };
+		1341C041233C3C6700B683DF /* MuseoSans-100-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-100-Italic.otf"; sourceTree = "<group>"; };
+		1341C042233C3C6700B683DF /* MuseoSans-500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-500.otf"; sourceTree = "<group>"; };
+		1341C043233C3C6700B683DF /* MuseoSans-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-300.otf"; sourceTree = "<group>"; };
+		1341C044233C3C6700B683DF /* MuseoSans-900Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-900Italic.otf"; sourceTree = "<group>"; };
+		1341C045233C3C6700B683DF /* MuseoSans-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-900.otf"; sourceTree = "<group>"; };
+		1341C051233C3D1200B683DF /* InteractorInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
+		1341C053233C3D2D00B683DF /* PresenterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		1341C055233C3D4000B683DF /* ViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		1341C057233C3D4F00B683DF /* WireframeInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireframeInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,99 @@
 		1341C025233C3AB500B683DF /* Flickr-Gallery */ = {
 			isa = PBXGroup;
 			children = (
-				1341C026233C3AB500B683DF /* AppDelegate.swift */,
-				1341C028233C3AB500B683DF /* ViewController.swift */,
-				1341C02A233C3AB500B683DF /* Main.storyboard */,
-				1341C02D233C3AB700B683DF /* Assets.xcassets */,
-				1341C02F233C3AB700B683DF /* LaunchScreen.storyboard */,
+				1341C038233C3B4000B683DF /* Application */,
+				1341C050233C3CEC00B683DF /* Common */,
+				1341C05C233C3DD400B683DF /* Modules */,
+				1341C03A233C3B9300B683DF /* Resources */,
+				1341C039233C3B7300B683DF /* Supporting Files */,
 				1341C032233C3AB700B683DF /* Info.plist */,
 			);
 			path = "Flickr-Gallery";
+			sourceTree = "<group>";
+		};
+		1341C038233C3B4000B683DF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1341C026233C3AB500B683DF /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1341C039233C3B7300B683DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1341C02A233C3AB500B683DF /* Main.storyboard */,
+				1341C02F233C3AB700B683DF /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1341C03A233C3B9300B683DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1341C03B233C3BA200B683DF /* Fonts */,
+				1341C02D233C3AB700B683DF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1341C03B233C3BA200B683DF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1341C041233C3C6700B683DF /* MuseoSans-100-Italic.otf */,
+				1341C03E233C3C6700B683DF /* MuseoSans-100.otf */,
+				1341C043233C3C6700B683DF /* MuseoSans-300.otf */,
+				1341C03D233C3C6600B683DF /* MuseoSans-300Italic.otf */,
+				1341C042233C3C6700B683DF /* MuseoSans-500.otf */,
+				1341C040233C3C6700B683DF /* MuseoSans-500Italic.otf */,
+				1341C03F233C3C6700B683DF /* MuseoSans-700.otf */,
+				1341C03C233C3C6600B683DF /* MuseoSans-700Italic.otf */,
+				1341C045233C3C6700B683DF /* MuseoSans-900.otf */,
+				1341C044233C3C6700B683DF /* MuseoSans-900Italic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1341C050233C3CEC00B683DF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1341C051233C3D1200B683DF /* InteractorInterface.swift */,
+				1341C053233C3D2D00B683DF /* PresenterInterface.swift */,
+				1341C055233C3D4000B683DF /* ViewInterface.swift */,
+				1341C057233C3D4F00B683DF /* WireframeInterface.swift */,
+				1341C05A233C3DA500B683DF /* Services */,
+				1341C059233C3D9500B683DF /* Extensions */,
+				1341C05B233C3DB600B683DF /* Helpers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1341C059233C3D9500B683DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1341C05A233C3DA500B683DF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1341C05B233C3DB600B683DF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1341C05C233C3DD400B683DF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,8 +232,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1341C04D233C3C6700B683DF /* MuseoSans-300.otf in Resources */,
 				1341C031233C3AB700B683DF /* LaunchScreen.storyboard in Resources */,
 				1341C02E233C3AB700B683DF /* Assets.xcassets in Resources */,
+				1341C04B233C3C6700B683DF /* MuseoSans-100-Italic.otf in Resources */,
+				1341C04E233C3C6700B683DF /* MuseoSans-900Italic.otf in Resources */,
+				1341C048233C3C6700B683DF /* MuseoSans-100.otf in Resources */,
+				1341C047233C3C6700B683DF /* MuseoSans-300Italic.otf in Resources */,
+				1341C04A233C3C6700B683DF /* MuseoSans-500Italic.otf in Resources */,
+				1341C046233C3C6700B683DF /* MuseoSans-700Italic.otf in Resources */,
+				1341C049233C3C6700B683DF /* MuseoSans-700.otf in Resources */,
+				1341C04C233C3C6700B683DF /* MuseoSans-500.otf in Resources */,
+				1341C04F233C3C6700B683DF /* MuseoSans-900.otf in Resources */,
 				1341C02C233C3AB500B683DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,8 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1341C029233C3AB500B683DF /* ViewController.swift in Sources */,
+				1341C052233C3D1200B683DF /* InteractorInterface.swift in Sources */,
+				1341C058233C3D4F00B683DF /* WireframeInterface.swift in Sources */,
 				1341C027233C3AB500B683DF /* AppDelegate.swift in Sources */,
+				1341C056233C3D4000B683DF /* ViewInterface.swift in Sources */,
+				1341C054233C3D2D00B683DF /* PresenterInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
