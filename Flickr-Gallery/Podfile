@@ -11,7 +11,7 @@ target 'Flickr-Gallery' do
      
     pod 'MKProgress', '~> 1.0.9'       , :inhibit_warnings => true
     pod 'SnapKit', '~> 5.0'
-    pod 'Alamofire', '~> 5.0.0-beta.5'
+    pod 'Alamofire', '= 5.0.0-beta.7'
 
     # Pods for Flickr-GalleryTests Unit testing
 

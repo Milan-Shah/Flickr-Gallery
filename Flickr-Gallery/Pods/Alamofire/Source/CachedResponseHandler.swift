@@ -83,7 +83,7 @@ extension ResponseCacher: CachedResponseHandler {
             completion(response)
         case .doNotCache:
             completion(nil)
-        case let .modify(closure):
+        case .modify(let closure):
             let response = closure(task, response)
             completion(response)
         }

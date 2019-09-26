@@ -40,11 +40,11 @@ final class UnfairLock {
         unfairLock.deallocate()
     }
 
-    private func lock() {
+    fileprivate func lock() {
         os_unfair_lock_lock(unfairLock)
     }
 
-    private func unlock() {
+    fileprivate func unlock() {
         os_unfair_lock_unlock(unfairLock)
     }
 
